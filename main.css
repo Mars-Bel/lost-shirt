@@ -13,14 +13,14 @@
   --titlesFont: 'Yanone Kaffeesatz', Arial, sans-serif;
 }
 
-html, 
-body {
+html, body {
   height: 100%;  
 }
 
 .wrapper {
-  overflow: hidden;
-  min-width: 1310px;
+  /*  overflow-x: hidden;  */
+  min-width: 1440px;
+  height: 100%;
 }
 
 .container {
@@ -33,7 +33,6 @@ body {
   color: #212121;
   -webkit-font-smoozing: antialiased;
   -moz-osx-font-smoozing: grayscale;
-  background: #fcf5e6;
 }
 
 ul {
